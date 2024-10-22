@@ -10,8 +10,10 @@ art <- data.frame(
 
 #Create new column
 art$F<-c("B","A","L","K","A")
+
 #Renaming columns
 colnames(art)<-c("greece","albania","skopje","bulgaria","turkey","serbia")
+
 #Create new row
 new_row<-c("G","R","E","E","C","E")
 art<-rbind(art,new_row)
