@@ -3,7 +3,6 @@ flavor<-readline("Flavor:")
 caffeine<-readline("Caffeine:")
 
 #Conditions for the user's input
-
 if (flavor!="Bold" && flavor!="Light")
 {
   cat("Enter either 'Bold' or 'Light' for flavor.")
