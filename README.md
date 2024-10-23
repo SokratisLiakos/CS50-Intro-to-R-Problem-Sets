@@ -14,3 +14,9 @@ A program that analyzes thousands of Big 5 personality tests.
 .
 # Problem Set 2.1
 A program that helps readers find the specific books they're looking for.
+
+# Problem Set 2.2
+A program that recommends users a cup of tea based on their flavor and caffeine preferences
+
+# Personal Project
+A program that recommends users a beer type based on their beer style(eg.stout,ale) and alcohol preferences. 
