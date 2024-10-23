@@ -3,7 +3,6 @@ beer<-tolower(readline("What style of beer would you like?"))
 alcohol<-tolower(readline("Do you prefer a high or low alcohol percentage?"))
 
 #Valid beer and alochol entries
-
 valid_beers<-c("belgian ale","weat beer","stout")
 valid_alcohol<-c("high","low")
 
