@@ -20,7 +20,7 @@ predict_visitors <- function(years, visitors, year) {
 }
 
 
-visitors <- read.csv("visitors.csv") #Read csv file
+visitors <- read.csv("visitors.csv") #Reads csv file
 year <- as.integer(readline("Year: ")) #Prompt user for an input
 predicted_visitors <- predict_visitors(visitors$year, visitors$visitors, year)
 cat(paste0(predicted_visitors, " million visitors\n")) #Output
