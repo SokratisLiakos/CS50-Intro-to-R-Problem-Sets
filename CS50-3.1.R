@@ -1,5 +1,4 @@
 #Function to calculate growth rate
-
 calculate_growth_rate <- function(years, visitors) {
   
   numerator<-visitors[length(visitors)]-visitors[1]
